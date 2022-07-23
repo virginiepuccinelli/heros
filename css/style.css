@@ -1,0 +1,1074 @@
+@media (min-width:1200px) {
+
+    /*//////////////////page index//////////////////////////////////////////////////////////////////////////////////*/
+    body {
+        background: linear-gradient(180deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+    }
+
+    .pdf {
+        margin-left: 89%;
+    }
+
+    .imgen {
+        margin-left: 5%;
+    }
+
+    .imgfr {
+        margin-left: 5%;
+    }
+
+    .titre {
+        margin-top: 5%;
+        color: blue;
+        text-align: center;
+        font-size: 3.4em;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .heros {
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        line-height: 90px;
+    }
+
+    .ajouter {
+        margin-left: 43%;
+        font-size: 1.5em;
+        color: rgb(219, 8, 166);
+    }
+
+    .msg {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .pousse {
+        width: 60%;
+        margin: auto;
+    }
+
+    .rech {
+        width: 25%;
+        margin-left: 75%;
+    }
+
+    #nombre {
+        font-size: 1em;
+        font-weight: bolder;
+        text-align: right;
+        margin-right: 5%;
+    }
+
+    .index_photo {
+        width: 20%;
+        height: 25vh;
+        border: 4px ridge black;
+        margin: auto;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #liste {
+        width: 75%;
+        height: 75%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .age {
+        line-height: 30px;
+        /*Definit la hauteur de la boite*/
+    }
+
+    /*//////////////////page detail/////////////////////////////////////////////////////////////////////////*/
+    .titredetail {
+        width: 95%;
+        height: 5%;
+        text-align: center;
+        font-size: 3em;
+        color: blue;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .para1 {
+        text-align: center;
+        line-height: 20px;
+        color: blue;
+        font-size: 2.2em;
+        font-weight: bold;
+
+    }
+
+    .para2 {
+        text-align: center;
+        color: blue;
+        font-size: 2.2em;
+        font-weight: bold;
+
+    }
+
+    #boutonsup {
+        margin-left: 5%;
+        width: 40px;
+        height: 40px;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #boutonmodif {
+        margin-left: 83%;
+        color: green;
+        font-size: 1em;
+        border: 1px groove green;
+        border-radius: 5px;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    .lien {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+
+    .f1 {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .sexe {
+        border-radius: 20px;
+        font-size: 0.5em;
+    }
+
+    .sex {
+        text-align: center;
+        color: blue;
+    }
+
+    .pouvoir {
+        text-align: center;
+        margin: auto;
+        font-size: 2em;
+        color: blue;
+        font-weight: bold;
+
+    }
+
+    .pouv {
+        text-align: center;
+        margin: auto;
+    }
+
+    #blocphoto {
+        width: 100%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    #boutonphoto {
+        width: 35%;
+        height: 20vh;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #blocimage {
+        width: 60%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #imageheros {
+        border: 6px ridge black;
+        width: 90%;
+        height: 40vh;
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #detailphoto {
+        width: 70%;
+        height: 5vh;
+        border: 4px ridge rgb(97, 93, 93);
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #photosh {
+        color: transparent;
+    }
+
+    #bloc_film {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    #description {
+        border: 4px ridge rgb(0, 0, 0);
+        width: 40%;
+        margin: auto;
+        height: 20vh;
+        flex-direction: column;
+        color: black;
+        font-size: 1.2em;
+        padding: 2%;
+        overflow-y: scroll;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+    }
+
+    #affiche {
+        width: 40%;
+        height: 90%;
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    #titre_film {
+        text-shadow: 2px 2px 5px black;
+        color: black;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    #affiche_film {
+        width: 95%;
+        margin: auto;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+    }
+
+    #annee_sortie {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px black;
+        color: black;
+    }
+
+    #traducdescript {
+        margin-top: 20%
+    }
+
+
+    /*//////////////////page ajout/////////////////////////////////////////////////////////////////////////*/
+    .ajout {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        color: blue;
+        font-size: 3em;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .form2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .erreur {
+        text-align: center;
+    }
+
+    .lienajout {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    /*/////////////////////////Page connexion////////////////////////////////*/
+    .contconnect {
+        width: 90%;
+        height: 90vh;
+        display: flex;
+        margin: auto;
+    }
+
+    .msgconn {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .conn1 {
+        width: 60%;
+        height: 50%;
+        margin: auto;
+        color: blue;
+
+    }
+
+    .conn2 {
+        color: blue;
+        margin: auto;
+    }
+
+    .btnferme2 {
+        width: 80%;
+        height: 10%;
+    }
+
+    .btnferme {
+        width: 10%;
+        height: 10%;
+        margin-top: 2%;
+        float: right;
+    }
+
+    .btnouvert {
+        margin-top: 2%;
+        width: 10%;
+        height: 10%;
+        float: right;
+    }
+
+    .btnouvert2 {
+        width: 80%;
+        height: 10%;
+    }
+
+    .connexion {
+        font-size: 1.4em;
+        margin-left: 70%;
+        color: black;
+    }
+
+    .deconnect {
+        color: blue;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 20%;
+        margin: auto;
+    }
+}
+
+@media (max-width:1199px) and (orientation:portrait) {
+    body {
+        background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+    }
+
+    .pdf {
+        margin-left: 75%;
+
+    }
+
+    .imgen {
+        margin-left: 5%;
+    }
+
+    .imgfr {
+        margin-left: 5%;
+    }
+
+    /*///////////////////Page index////////////////////////////////////////////////////////////////////////////////*/
+
+    .titre {
+        color: blue;
+        text-align: center;
+        font-size: 3.2em;
+        padding: 2%;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .heros {
+        color: green;
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: bold;
+        line-height: 70px;
+        padding: 1%;
+    }
+
+    .ajouter {
+        margin-left: 27%;
+        font-size: 1.5em;
+        color: rgb(219, 8, 166);
+    }
+
+    .pousse {
+        width: 50%;
+        margin: auto;
+    }
+
+    .rech {
+        margin-left: 25%;
+    }
+
+    #nombre {
+        font-size: 1.2em;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .index_photo {
+        width: 60%;
+        height: 30vh;
+        border: 4px ridge black;
+        margin: auto;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #liste {
+        width: 95%;
+        height: 75%;
+        text-align: center;
+    }
+
+    .age {
+        line-height: 30px;
+
+    }
+
+    /*//////////////////page detail///////////////////////////////////////////////////////////////////////////////////////*/
+    .titredetail {
+        text-align: center;
+        font-size: 2em;
+        color: blue;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .para1 {
+        text-align: center;
+        line-height: 20px;
+        color: blue;
+        font-size: 1.7em;
+        font-weight: bold;
+
+    }
+
+    .para2 {
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: blue;
+    }
+
+    #boutonsup {
+        margin: auto;
+        width: 20%;
+        height: 20%;
+
+    }
+
+    #boutonmodif {
+        margin-left: 28%;
+        color: green;
+        width: 20%;
+        height: 20%;
+        font-size: 1em;
+        border: 1px groove green;
+    }
+
+    .lien {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 15%;
+    }
+
+    .f1 {
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .pouvoir {
+        margin-left: 35%;
+        font-size: 1.5em;
+        color: blue;
+        font-weight: bold;
+
+    }
+
+    .pouv {
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+        color: rgb(99, 4, 4);
+        line-height: 35px;
+    }
+
+    #blocphoto {
+
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+
+    #boutonphoto {
+        float: right;
+        width: 20%;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    #blocimage {
+        width: 75%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #imageheros {
+        border: 6px ridge black;
+        width: 100%;
+        height: 40vh;
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #detailphoto {
+        width: 80%;
+        height: 10vh;
+        border: 4px ridge rgb(97, 93, 93);
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+    }
+
+    #photosh {
+        color: transparent;
+    }
+
+    #bloc_film {
+        width: 90%;
+        margin: auto;
+    }
+
+    #description {
+        border: 4px ridge rgb(0, 0, 0);
+        width: 90%;
+        margin: auto;
+        height: 20vh;
+        color: black;
+        font-size: 1.2em;
+        padding: 2%;
+        overflow-y: scroll;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #affiche {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        text-align: center;
+        line-height: 300%;
+
+    }
+
+    #titre_film {
+        text-shadow: 2px 2px 5px black;
+        color: black;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.5em;
+        padding: 5%;
+    }
+
+    #affiche_film {
+        width: 95%;
+        margin: auto;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+    }
+
+    #annee_sortie {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px black;
+        color: black;
+    }
+
+    #traducdescript {
+        margin-top: 8%;
+        margin-left: 4%;
+        margin-bottom: 5%;
+    }
+
+
+
+    /*//////////////////page ajout/////////////////////////////////////////////////////////////////////////*/
+
+
+    .ajoutheros {
+        width: 95%;
+        height: 95%;
+    }
+
+    .ajout {
+        text-align: center;
+        color: blue;
+        font-size: 3em;
+    }
+
+    .form2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .erreur {
+        text-align: center;
+    }
+
+    .lienajout {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+
+    /*/////////////////////////Page connexion////////////////////////////////*/
+    .msgconn {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .contconnect {
+        width: 95%;
+        height: 95vh;
+        display: flex;
+    }
+
+
+    .conn1 {
+        width: 95%;
+        height: 90%;
+        margin: auto;
+        color: blue;
+    }
+
+    .conn2 {
+        color: blue;
+        margin: auto;
+    }
+
+    .btnferme2 {
+        width: 75%;
+        height: 10%;
+    }
+
+    .btnferme {
+        margin-right: 5%;
+        margin-top: 3%;
+        width: 10%;
+        height: 10%;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .btnouvert {
+        margin-top: 3%;
+        width: 10%;
+        height: 10%;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .btnouvert2 {
+        width: 80%;
+        height: 10%;
+    }
+
+    .connexion {
+        font-size: 1.4em;
+        margin-left: 50%;
+        line-height: 300%;
+        color: black;
+    }
+
+    .deconnect {
+        color: blue;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 20%;
+        margin: auto;
+    }
+}
+
+@media (max-width:1199px) and (orientation:landscape) {
+
+    /*//////////////////page index//////////////////////////////////////////////////////////////////////////////////*/
+    body {
+        background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    }
+
+
+
+    .pdf {
+        margin-left: 78%;
+
+    }
+
+    .imgen {
+        margin-left: 5%;
+    }
+
+    .imgfr {
+        margin-left: 5%;
+    }
+
+    .titre {
+        margin-top: 5%;
+        color: blue;
+        text-align: center;
+        font-size: 3em;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .heros {
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        line-height: 90px;
+    }
+
+    .ajouter {
+        margin-left: 40%;
+        font-size: 1.5em;
+        color: rgb(219, 8, 166);
+    }
+
+    .pousse {
+        width: 60%;
+        margin: auto;
+    }
+
+    .rech {
+        width: 35%;
+        margin-left: 60%;
+    }
+
+    #nombre {
+        font-size: 1.2em;
+        font-weight: bolder;
+        text-align: right;
+        margin-right: 5%;
+    }
+
+    #liste {
+        width: 95%;
+        height: 75%;
+        text-align: center;
+    }
+
+    .index_photo {
+        width: 40%;
+        height: 30vh;
+        border: 4px ridge black;
+        margin: auto;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+    }
+
+    .age {
+        line-height: 30px;
+
+    }
+
+    /*//////////////////page detail/////////////////////////////////////////////////////////////////////////*/
+    .titredetail {
+        text-align: center;
+        font-size: 3em;
+        color: blue;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .para1 {
+        text-align: center;
+        line-height: 20px;
+        color: blue;
+        font-size: 2em;
+        font-weight: bold;
+
+    }
+
+    .para2 {
+        text-align: center;
+        font-size: 2em;
+        color: blue;
+        font-weight: bold;
+
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    #boutonsup {
+        margin: auto;
+        width: 20%;
+        height: 20%;
+    }
+
+    #boutonmodif {
+        margin-left: 67%;
+        color: green;
+        font-size: 1em;
+        border: 1px groove green;
+        border-radius: 5px;
+        width: 20%;
+        height: 20%;
+    }
+
+    .lien {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .f1 {
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .pouvoir {
+        margin-left: 35%;
+        font-size: 2em;
+        color: blue;
+        font-weight: bold;
+
+    }
+
+    .pouv {
+        text-align: center;
+        color: rgb(240, 11, 11);
+    }
+
+    #blocphoto {
+
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+
+    #boutonphoto {
+        width: 35%;
+        height: 20vh;
+        margin: auto;
+
+        flex-direction: column;
+    }
+
+    #blocimage {
+        width: 80%;
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    #imageheros {
+        border: 6px ridge black;
+
+        width: 95%;
+        height: 40vh;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #detailphoto {
+        width: 70%;
+        height: 5vh;
+        border: 4px ridge rgb(97, 93, 93);
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+    }
+
+    #photosh {
+        color: transparent;
+    }
+
+    #bloc_film {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    #description {
+        border: 4px ridge rgb(0, 0, 0);
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 20%;
+        height: 45vh;
+        flex-direction: column;
+        color: black;
+        font-size: 1.2em;
+        padding: 2%;
+        overflow-y: scroll;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+
+    }
+
+    #affiche {
+        width: 40%;
+        height: 90%;
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    #titre_film {
+        text-shadow: 2px 2px 5px black;
+        color: black;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    #affiche_film {
+        width: 95%;
+        margin: auto;
+        box-shadow: 4px 4px 6px rgb(88, 87, 87);
+        content: normal;
+    }
+
+    #annee_sortie {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px black;
+        color: black;
+    }
+
+    #traducdescript {
+        margin-top: 30%;
+        width: 20%;
+    }
+
+    /*//////////////////page ajout/////////////////////////////////////////////////////////////////////////*/
+
+
+    .ajoutheros {
+        width: 95%;
+        height: 95%;
+    }
+
+    .ajout {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        color: blue;
+        font-size: 3em;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .form2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .erreur {
+        text-align: center;
+    }
+
+    .lienajout {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    /*/////////////////////////Page connexion////////////////////////////////*/
+    .contconnect {
+        width: 95%;
+        height: 95vh;
+        display: flex;
+        margin: auto;
+    }
+
+    .msgconn {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .conn1 {
+        width: 80%;
+        height: 70%;
+        margin: auto;
+        color: blue;
+    }
+
+    .conn2 {
+        color: blue;
+        margin: auto;
+    }
+
+    .btnferme2 {
+        width: 80%;
+        height: 10%;
+    }
+
+    .btnferme {
+        margin-top: 2%;
+        width: 10%;
+        height: 10%;
+        float: right;
+    }
+
+    .btnouvert {
+        margin-top: 2%;
+        width: 10%;
+        height: 10%;
+        float: right;
+    }
+
+    .btnouvert2 {
+        width: 80%;
+        height: 10%;
+    }
+
+    .connexion {
+        font-size: 1.4em;
+        margin-left: 60%;
+        color: black;
+    }
+
+    .deconnect {
+        color: blue;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 20%;
+        margin: auto;
+    }
+
+}
